@@ -1,6 +1,7 @@
 [user]
 	name = Mattheus Roxas
-	email = thepogsupreme@tuta.io
+	email = git.zpr5p@aleeas.com
+	signingkey = 7D75BBE72FA3F58F3993A47C21152CD17526A685
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -8,3 +9,5 @@
 	clean = git-lfs clean -- %f
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
