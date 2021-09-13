@@ -43,15 +43,15 @@ c.completion.shrink = True
 c.completion.use_best_match = True
 
 # Fonts
-c.fonts.default_family = ["cherry"]
-c.fonts.completion.entry = "10pt cherry"
-c.fonts.prompts = "cherry"
-# c.fonts.web.family.standard = "cherry"
-# c.fonts.web.family.fixed = "cherry"
-# c.fonts.web.family.serif = "cherry"
-# c.fonts.web.family.sans_serif = "cherry"
-# c.fonts.web.family.cursive = "cherry"
-# c.fonts.web.family.fantasy = "cherry"
+c.fonts.default_family = ["curie"]
+c.fonts.completion.entry = "10pt curie"
+c.fonts.prompts = "curie"
+# c.fonts.web.family.standard = "curie"
+# c.fonts.web.family.fixed = "curie"
+# c.fonts.web.family.serif = "curie"
+# c.fonts.web.family.sans_serif = "curie"
+# c.fonts.web.family.cursive = "curie"
+# c.fonts.web.family.fantasy = "curie"
 
 # Keys
 bindings = {

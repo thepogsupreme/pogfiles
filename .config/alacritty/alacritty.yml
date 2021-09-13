@@ -34,12 +34,12 @@ colors:
 
 font:
   normal:
-    family: cherry
+    family: curie
 
   bold:
-    family: cherry
+    family: curie
 
   italic:
-    family: cherry
+    family: curie
 
   size: 8

@@ -29,7 +29,7 @@ padding-left					= 5
 padding-right					= 5
 module-margin-left				= 5
 module-margin-right				= 5
-font-0							= cherry:pixelsize=12;2
+font-0							= curie:pixelsize=12;2
 font-1							= Siji:pixelsize=8;2
 modules-left					= dwm
 modules-center					= date
@@ -72,7 +72,7 @@ format-charging-underline		= ${colors.focused}
 format-discharging				= <animation-discharging> <label-discharging>
 format-discharging-underline	= ${self.format-charging-underline}
 
-format-full-prefix				= " "
+format-full-prefix				= " "
 format-full-prefix-foreground	= ${colors.foreground}
 format-full-underline			= ${self.format-charging-underline}
 
@@ -112,7 +112,7 @@ interval						= 5
 
 ramp-volume-0					= 
 ramp-volume-1					= 
-ramp-volume-2					= 
+ramp-volume-2					= 
 label-muted						=  Muted
 
 [module/network]
