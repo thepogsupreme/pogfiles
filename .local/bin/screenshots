@@ -1,0 +1,2 @@
+#!/bin/sh
+amogu.sh -d -p ~/media/screenshots

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+export FIFO="/tmp/image-preview.fifo"
+
+start_ueberzug () {
+    mkfifo "$FIFO"
+    ueberzug layer --parser json < "$FIFO" 2>error &
+    exec 3> "$FIFO"
+}
+stop_ueberzug (){
+    exec 3>&-
+    rm -f "$FIFO"
+}
+
+preview_img () {
+    [ -d "$1" ] && echo "$1 is a directory" || \
+    printf '%s\n' '{"action": "add", "identifier": "image-preview", "path": "'"$1"'", "x": "2", "y": "2", "width": "'"$FZF_PREVIEW_COLUMNS"'", "height": "'"$FZF_PREVIEW_LINES"'"}' > "$FIFO"
+}
+[ "$1" = "preview_img" ] && { preview_img "$2"; exit; }
+
+start_ueberzug
+
+find ~/media/memes/* | tac | fzf --preview-window="left:50%:wrap" --preview "sh $0 preview_img {}" || stop_ueberzug
+stop_ueberzug

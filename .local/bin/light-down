@@ -1,0 +1,3 @@
+#!/bin/sh
+
+light -U 10 && notify-send -t 200 "Light" "$(light -G)"

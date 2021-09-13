@@ -1,0 +1,48 @@
+# Basics
+# set hidden
+
+# Bindings
+map . set hidden!
+map b $setbg $f
+map dr dragon
+map ds dragon-stay
+map di dragon-individual
+map dm mvdragon
+map dc cpdragon
+map dl dldragon
+map md mkdir
+map U unselect
+
+# Remove some bindings
+map m
+map o
+map n
+map "'"
+map '"'
+map d
+map c
+map e
+map f
+
+# Commands
+cmd setbg "$1"
+
+cmd open ${{
+    case $(file --mime-type "$f" -bL) in
+        text/*|application/json) $EDITOR "$f";;
+        *) xdg-open "$f" ;;
+    esac
+}}
+
+cmd mkdir ${{
+  printf "Directory Name: "
+  read ans
+  mkdir $ans
+}}
+
+cmd dragon %dragon -a -x $fx
+cmd dragon-stay %dragon -a $fx
+cmd dragon-individual $dragon $fx
+cmd cpdragon %cpdragon
+cmd mvdragon %mvdragon
+cmd dldragon %dldragon
