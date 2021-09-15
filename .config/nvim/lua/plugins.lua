@@ -33,10 +33,13 @@ require('packer').startup(function()
 
 	use {
 		'kyazdani42/nvim-tree.lua',
-		cmd = "NvimTreeToggle"
+		cmd = "NvimTreeToggle",
+		config = function()
+			require'plugins.nvimtree'
+		end
 	}
 	
-	use {'karb94/neoscroll.nvim'}
+	use 'karb94/neoscroll.nvim'
 
 	-- Theme
 	use 'thepogsupreme/mountain.nvim'
@@ -49,6 +52,15 @@ require('packer').startup(function()
 		end
 	}
 
+	-- Startup
+	use {
+ 		'goolord/alpha-nvim',
+		config = function ()
+			require'plugins.alpha'
+        	-- require'alpha'.setup(require'alpha.themes.dashboard'.opts)
+		end
+	}
+
 	-- Language Server:
 	use {
 		"nvim-treesitter/nvim-treesitter",
@@ -57,6 +69,7 @@ require('packer').startup(function()
 				require'plugins.treesitter'
 			end
 	}
+
 	use {
 		"kabouzeid/nvim-lspinstall",
 		event = "BufRead"
