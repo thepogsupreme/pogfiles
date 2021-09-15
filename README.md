@@ -1,10 +1,10 @@
 ## Pogfiles
 My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 
+> "It'll make you bust a nut. Scratch that, 2." ~ Nobody
+
 ### Schmensual
 ![Screenshot](mountain_rice_v3.png)
-
-> "It'll make you bust a nut. Scratch that, 2." ~ Nobody
 
 ### Alright shit you need
 * alacritty
