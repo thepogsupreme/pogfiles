@@ -4,7 +4,14 @@ My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 > "It'll make you bust a nut--scratch that, 2." - Nobody
 
 # Schmensual
+## Bunch of stuff
 ![Screenshot](mountain_rice_v3.png)
+
+## Neovim
+![Neovim](neovim.png)
+
+## Rofi
+![Rofi](rofi.png)
 
 # Alright shit you need
 ## Programs 
