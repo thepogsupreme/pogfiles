@@ -1,0 +1,128 @@
+[colors]
+foreground						= #6c605a
+background						= #ede6e3
+urgent							= #839773
+focused							= #ce9c85
+faded							= #dad3d0
+
+[bar/bar]
+width							= 66%
+height							= 41
+offset-x						= 16%
+offset-y						= 25
+
+fixed-center					= true
+background						= ${colors.background}
+foreground						= ${colors.foreground}
+padding-left					= 5
+padding-right					= 5
+module-margin-left				= 5
+module-margin-right				= 5
+font-0							= curie:pixelsize=12;2
+font-1							= Siji:pixelsize=8;2
+modules-left					= dwm
+modules-center					= date
+modules-right					= network pulseaudio battery
+override-redirect				= false
+
+[module/dwm]
+type							= internal/dwm
+enable-layout-click				= false
+format							= <label-tags> <label-layout>
+format-font						= 2
+
+label-focused					= 
+label-unfocused					= 
+label-urgent					= 
+label-visible					= 
+label-empty						= 
+
+label-focused-padding			= 1
+label-unfocused-padding			= 1
+label-urgent-padding			= 1
+label-visible-padding			= 1
+label-empty-padding				= 1
+
+label-focused-foreground		= ${colors.focused}
+label-unfocused-foreground		= ${colors.faded}
+label-urgent-foreground			= ${colors.urgent}
+label-visible-foreground		= ${colors.faded}
+label-empty-foreground			= ${colors.faded}
+
+[module/battery]
+type							= internal/battery
+battery							= BAT1
+adapter							= ADP1
+full-at							= 100
+
+format-charging					= <animation-charging> <label-charging>
+format-charging-underline		= ${colors.focused}
+
+format-discharging				= <animation-discharging> <label-discharging>
+format-discharging-underline	= ${self.format-charging-underline}
+
+format-full-prefix				= " "
+format-full-prefix-foreground	= ${colors.foreground}
+format-full-underline			= ${self.format-charging-underline}
+
+ramp-capacity-0					= 
+ramp-capacity-1					= 
+ramp-capacity-2					= 
+ramp-capacity-foreground		= ${colors.foreground}
+
+animation-charging-0			= 
+animation-charging-1			= 
+animation-charging-2			= 
+animation-charging-foreground	= ${colors.foreground}
+animation-charging-framerate	= 750
+
+animation-discharging-0			= 
+animation-discharging-1			= 
+animation-discharging-2			= 
+animation-discharging-foreground= ${colors.foreground}
+animation-discharging-framerate = 750
+
+[module/date]
+type							= internal/date
+format							=  <label>
+label							= %time%
+
+interval						= 25.0
+time							= %I:%M %p
+date							= %A, %d %B, %Y
+
+[module/pulseaudio]
+type							= internal/pulseaudio
+format-volume					= <ramp-volume> <label-volume>
+
+sink							= alsa_output.pci-0000_12_00.3.analog-stereo
+use-ui-max						= true
+interval						= 5
+
+ramp-volume-0					= 
+ramp-volume-1					= 
+ramp-volume-2					= 
+label-muted						=  Muted
+
+[module/network]
+type							= internal/network
+interface						= wlan0
+interval						= 3.0
+accumulate-stats				= true
+unknown-as-up					= true
+
+label-connected					= %essid%
+label-disconnected				=  Disconnected
+
+format-connected				= <ramp-signal> <label-connected>
+format-disconnected				= <label-disconnected>
+
+ramp-signal-0					= 
+ramp-signal-1					= 
+ramp-signal-2					= 
+ramp-signal-3					= 
+ramp-signal-4					= 
+ramp-signal-5					= 
+
+[settings]
+screenchange-reload				= true

@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	mkd="mkdir -pv" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	ls="exa -al" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	c="calcurse" \
+	def-ru="sdcv -u 'Full English-Russian'" \
+	def-en="sdcv -u 'Merrian Webster 10th dictionary'" \
+	g="git" \
+	ka="killall" \
+	m="mpv" \
+	n="newsboat" \
+	pi="paru -S" \
+	pr="paru -Rns" \
+	ps="paru -Ss" \
+	h="htop" \
+	pu="paru -Syu" \
+	sdn="sudo shutdown -h now" \
+	t="bpytop" \
+	usb="sudo mount -o umask=0022,gid=1000,uid=1000 /dev/sdb ~/media/usb" \
+	v="$EDITOR" \
+	yt="pipe-viewer --colors" \
+	yta="yt-dlp -x -f bestaudio/best -o '%(title)s.%(ext)s'" \
+	ytv="yt-dlp --embed-subs -o '%(title)s.%(ext)s'" \
+	z="zathura" \

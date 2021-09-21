@@ -1,0 +1,2 @@
+#!/bin/sh
+maim -u | tee ~/media/screenshots/$(date +%s).png | xclip -selection clipboard -t image/png

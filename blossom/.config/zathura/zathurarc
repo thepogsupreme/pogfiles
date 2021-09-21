@@ -1,0 +1,53 @@
+# General
+set selection-clipboard clipboard
+set window-title-home-tilde true
+set statusbar-home-tilde true
+set adjust-open "best-fit"
+
+# Mappings
+map i recolor
+
+# Startup
+set adjust-open width
+set recolor true
+map <C-Tab> toggle_statusbar
+set guioptions ""
+
+set font "curie 10"
+set notification-error-bg		"#ce9c85"
+set notification-error-fg		"#f8f8f2"
+set notification-warning-bg		"#ce9c85"
+set notification-warning-fg		"#fccec1"
+set notification-bg				"#ede6e3"
+set notification-fg				"#f8f8f2"
+
+set completion-bg				"#ede6e3"
+set completion-fg				"#dad3d0"
+set completion-group-bg			"#ede6e3"
+set completion-group-fg			"#dad3d0"
+set completion-highlight-bg		"#fccec1" 
+set completion-highlight-fg		"#f8f8f2"
+
+set index-bg					"#ede6e3"
+set index-fg					"#f8f8f2"
+set index-active-bg				"#fccec1"
+set index-active-fg				"#f8f8f2"
+
+set inputbar-bg					"#ede6e3"
+set inputbar-fg					"#f8f8f2"
+set statusbar-bg				"#ede6e3"
+set statusbar-fg				"#f8f8f2"
+
+set highlight-color				"#ce9c85"
+set highlight-active-color		"#ce9c85"
+
+set default-bg					"#ede6e3"
+set default-fg					"#f8f8f2"
+
+set render-loadin				true
+set render-loading-fg			"#ede6e3"
+set render-loading-bg			"#f8f8f2"
+
+# Recolor mode settings
+set recolor-lightcolor			"#ede6e3"
+set recolor-darkcolor			"#6c605a"

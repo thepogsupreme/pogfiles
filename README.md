@@ -3,9 +3,13 @@ My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 
 > "It'll make you bust a nut--scratch that, 2." - Nobody
 
-# Schmensual
+# Blossom
 ## Bunch of stuff
-![Screenshot](mountain_rice_v3.png)
+![Bunch of stuff](blossom.png)
+
+# Mountain
+## Bunch of stuff
+![Bunch of stuff](mountain.png)
 
 ## Neovim
 ![Neovim](neovim.png)

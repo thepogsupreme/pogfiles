@@ -1,0 +1,43 @@
+#UI
+window:
+  padding:
+    x: 20
+    y: 20
+
+# Colors
+colors:
+  primary:
+    foreground: "#6c605a"
+    background: "#ede6e3"
+
+  normal:
+    black: "#ede6e3"
+    red: "#ce9c85"
+    green: "#839773"
+    yellow: "#a09c80"
+    blue: "#8f8678"
+    magenta: "#9c7b9c"
+    cyan: "#75998e"
+    white: "#685c56"
+
+  bright:
+    black: "#dad3d0"
+    red: "#ce9c85"
+    green: "#839773"
+    yellow: "#a09c80"
+    blue: "#8f8678"
+    magenta: "#9c7b9c"
+    cyan: "#75998e"
+    white: "#938680"
+
+font:
+  normal:
+    family: curie
+
+  bold:
+    family: curie
+
+  italic:
+    family: curie
+
+  size: 5

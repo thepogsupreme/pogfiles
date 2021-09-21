@@ -1,0 +1,101 @@
+:root {
+	/* --font-family: "curie"; */
+	/* --font-size: 16px;	 */
+
+	--bg: #ede6e3;
+	--bg-soft: #dad3d0;
+	--bg-hard: #e3d0cb;
+
+	--fg: #6c605a;
+	--fg-light: #938680;
+	--fg-light-pink: #8f8678;
+	--fg-dark: #574b45;
+
+	--red: #ce9c85;
+}
+
+.theme-light {
+	--header-primary: var(--red);
+	--header-secondary: var(--fg-light);
+	--text-normal: var(--fg);
+	--text-muted: var(--fg-light);
+	--text-link: var(--fg-light-pink);
+	--channels-default: var(--fg-light);
+	--interactive-normal: var(--fg-light);
+	--interactive-hover: var(--fg);
+	--interactive-active: var(--fg);
+	--interactive-muted: var(--fg-light-pink);
+	--background-primary: var(--bg);
+	--background-secondary: var(--bg-soft);
+	/* TODO: Replace these, `--bg-soft` is just a placeholder. */
+	--background-secondary-alt: var(--bg-soft);
+	--background-tertiary: var(bg-soft);
+	--background-accent: var(--red);
+	--background-floating: var(--bg);
+	/* --background-modifier-hover: rgba(79, 84, 92, 0.16); */
+	/* --background-modifier-active: rgba(79, 84, 92, 0.24); */
+	/*--background-modifier-accent: hsla(0, 0%, 100%, 0.06);*/
+	/* --background-modifier-accent: rgba(0, 0, 0, 0); */
+	/* --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24); */
+	/* --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); */
+	--channeltextarea-background: var(--bg);
+	--activity-card-background: var(--bg-hard);
+	--deprecated-panel-background: var(--bg-soft);
+	--background-modifier-selected: var(--bg);
+	--elevation-low: none !important;
+	--background-message-hover: var(--bg-hard) !important;	
+}
+
+* {
+	font-weight: normal !important;
+	font-family: curie !important;
+	/* font-family: var(--font-family) !important; */
+	font-size: 10 !important;
+	/* font-size: var(--font-size) !important; */
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hide annoying sticker popup window that appears when you type */
+.da-channelTextArea > .container-JHR0NT {
+    display: none;
+}
+
+/* Hide file upload button */
+button[aria-label="Upload a File"] {
+    display: none;
+}
+
+/* Hide channel list */
+/* div.sidebar-2K8pFh { */
+/* 	display: none; */
+/* } */
+
+/* Hide server sidebar */
+nav[aria-label="Servers sidebar"] {
+    display: none;
+}
+.sidebar-2K8pFh.hideElement + .chat-3bRxxu .messagesWrapper-1sRNjr + .form-2fGMdU {
+    margin-left: 0;
+}
+.base-3dtUhz {
+    left: 0;
+}
+
+/* Make navigation menu scale */
+.quickswitcher-3JagVE {
+    width: 80vw;
+}
+.container-3qKHyN {
+  width: 80vw;
+}
