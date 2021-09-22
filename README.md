@@ -12,10 +12,10 @@ My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 ![Bunch of stuff](mountain.png)
 
 ## Neovim
-![Neovim](neovim.png)
+![Neovim](mountain_neovim.png)
 
 ## Rofi
-![Rofi](rofi.png)
+![Rofi](mountain_rofi.png)
 
 # Alright shit you need
 ## Programs 
