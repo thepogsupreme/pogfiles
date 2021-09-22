@@ -7,7 +7,7 @@ shrink = no
 transparency = 0
 notification_height = 0
 separator_height = 4
-padding = 12
+padding = 20
 horizontal_padding = 12
 frame_width = 0
 frame_color = "#262626"
@@ -15,8 +15,7 @@ separator_color = auto
 sort = no
 idle_threshold = 0
 
-### Text ###
-
+# Text
 font = curie 10
 line_height = 3
 markup = full
