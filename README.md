@@ -21,19 +21,19 @@ My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 ## Programs 
 * Audio - ncmpcpp
 * Audio editing - [Audacity](https://github.com/SartoxOnlyGNU/audacium)
-* Bar - polybar
-* Docs - zathura
-* Files - lf
-* Menu - rofi
-* Notif - dunst
+* Bar - Polybar
+* Docs - Zathura
+* Files - LF
+* Menu - Rofi
+* Notif - Dunst
 * Pixel art - Aseprite
-* Shell - zsh
-* Term - alacritty
-* Text - neovim
-* Video - mpv
+* Shell - ZSH
+* Term - Alacritty
+* Text - Neovim
+* Video - MPV
 * Video editing - Olive
 * WM - dwm
-* Web - qutebrowser
+* Web - Qutebrowser
 
 ## Misc 
 I recommend using `otb` variants, ergo [siji-ng](https://github.com/begss/siji-ng), as a lot of modern programs [prefer them](https://bbs.archlinux.org/viewtopic.php?pid=1940532#p1940532).
