@@ -7,20 +7,20 @@ My config files for stuff. Also kinda an informal Bootleg Mountain repo.
 ## Bunch of stuff
 ![Bunch of stuff](blossom.png)
 
-# Mountain
-## Bunch of stuff
-![Bunch of stuff](mountain.png)
-
-## Neovim
-![Neovim](mountain_neovim.png)
-
-## Rofi
-![Rofi](mountain_rofi.png)
+<!-- # Mountain -->
+<!-- ## Bunch of stuff -->
+<!-- ![Bunch of stuff](mountain.png) -->
+<!--  -->
+<!-- ## Neovim -->
+<!-- ![Neovim](mountain_neovim.png) -->
+<!--  -->
+<!-- ## Rofi -->
+<!-- ![Rofi](mountain_rofi.png) -->
 
 # Alright shit you need
 ## Programs 
 * Audio - ncmpcpp
-* Audio editing - [Audacity](https://github.com/SartoxOnlyGNU/audacium)
+* Audio editing - Audacium
 * Bar - Polybar
 * Docs - Zathura
 * Files - LF
