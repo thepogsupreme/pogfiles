@@ -1,5 +1,5 @@
 # Pogfiles
-My config files for stuff. Also kinda an informal Bootleg Mountain repo.
+My config files for stuff, powered by Effort®.
 
 > "It'll make you bust a nut--scratch that, 2." - Nobody
 
