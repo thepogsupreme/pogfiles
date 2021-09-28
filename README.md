@@ -3,7 +3,7 @@ My config files for stuff, powered by Effort®.
 
 > "It'll make you bust a nut--scratch that, 2." - Nobody
 
-# Blossom
+# Blossom (Current)
 ## Bunch of stuff
 ![Bunch of stuff](blossom.png)
 
@@ -17,7 +17,7 @@ My config files for stuff, powered by Effort®.
 <!-- ## Rofi -->
 <!-- ![Rofi](mountain_rofi.png) -->
 
-# Alright shit you need
+# Shit you need
 ## Programs 
 * Audio - ncmpcpp
 * Audio editing - Audacium
@@ -41,6 +41,9 @@ I recommend using `otb` variants, ergo [siji-ng](https://github.com/begss/siji-n
 * Icon font - Siji
 * Screen/Teleplays - LaTeX 
 * Long form essay - groff
+
+# Shit you need to do
+Run [sussyfy.sh](sussyfy.sh) to install.
 
 # License
 Licensed under [EUPL 1.2](LICENSE.md).
